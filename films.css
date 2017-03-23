@@ -1,0 +1,311 @@
+body {
+    font-family: Arial, PMingLiU;
+    /*padding: 0px 30px;*/
+    /* margin: auto;*/
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    padding-left: 65px;
+}
+
+header> h3 {
+    color: #5587A2;
+}
+
+header> h1 {
+    color: #5587A2;
+}
+
+header> address {
+    padding-left: 70px;
+    text-align: left;
+}
+
+header> nav {
+    float: right;
+    padding-right: 105px;
+}
+
+header> nav> a {
+    color: #67593D;
+}
+
+header> nav> a:hover {
+    color: #6387A2;
+}
+
+.article {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    line-height: 1.5;
+    padding-left: 100px;
+    /*    background-color: #EEEEEE;*/
+}
+
+.article> p {
+    padding: 2px;
+}
+
+.article> p> a {
+    color: #88B14B;
+}
+
+.article> p> a:visited {
+    color: #D1AF94;
+}
+
+.article> p> a:hover {
+    color: #745F55;
+}
+
+.article> p> a:active {
+    color: #5587A2;
+}
+
+.aside {
+    display: inline-block;
+    width: 550px;
+    padding-right: 50px;
+    padding-left: 15px;
+    float: left;
+}
+
+.dustinwind {
+    display: inline-block;
+    width: 250px;
+    background-color: #EEEEEE;
+    margin: 5px;
+    float: left;
+}
+
+.terrorizers {
+    display: inline-block;
+    width: 250px;
+    float: left;
+    margin: 5px;
+    background-color: #EEEEEE;
+}
+
+.theweddingbanquet {
+    display: inline-block;
+    width: 250px;
+    float: left;
+    margin: 5px;
+    background-color: #EEEEEE;
+}
+
+.vivei {
+    display: inline-block;
+    width: 250px;
+    float: left;
+    margin: 5px;
+    background-color: #EEEEEE;
+}
+
+.facetaiwan {
+    display: inline-block;
+    width: 250px;
+    float: left;
+    margin: 5px;
+    background-color: #EEEEEE;
+}
+
+.movie {
+    width: 250px;
+    margin-left: -40px;
+    margin-top: -15px;
+}
+
+.movie:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.name {
+    float: left;
+    display: inline-block;
+    padding-top: -5px;
+}
+
+.classic {
+    width: 25%;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+    margin-left: -40px;
+    /*text-align: left;*/
+    /*margin-left: 0px;*/
+}
+
+.name> p> a> span {
+    font-weight: bold;
+}
+
+.name> p> a {
+    text-decoration: none;
+    color: #88B14B;
+}
+
+.name>p > a:visited {
+    color: #D1AF94;
+}
+
+.name> p> a:hover {
+    color: #745F55;
+}
+
+.name>p > a:active {
+    color: #5587A2;
+}
+
+.time {
+    margin-left: -30px;
+}
+
+.aside li>strong {
+    color: #5587A2;
+    font-size: 25px;
+}
+
+.director {
+    margin-left: -30px;
+}
+
+.note {
+    margin-left: -30px;
+}
+
+hr {
+    border: 1px #cccccc dotted;
+    width: 90%;
+    margin: auto;
+}
+
+.box {
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    padding-left: 50px;
+
+    /*  background-color: #EEEEEE;*/
+}
+
+.box .chinese {
+    display: inline-block;
+    width: 45%;
+    height: 429px;
+    float: left;
+    padding: 10px;
+    margin-left: 40px;
+    background-color: #EEEEEE;
+    font-size: 14px;
+    line-height: 1.5em;
+            margin-bottom: 20px;
+}
+
+.box .english {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: #EEEEEE;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.box li>strong {
+    color: #EF562D;
+}
+
+.top i {
+    width: 15%;
+    float: right;
+    color: black;
+    padding-right: 0px;
+    margin-bottom: 15px;
+    /*background-color: #5587A2;*/
+}
+
+.footer> section> img {
+    float: left;
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 150px;
+}
+
+.footer> section p {
+    float: left;
+    display: inline-block;
+}
+
+.footer> .nav {
+    text-align: center;
+    float: right;
+}
+
+.navup> ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navup> ul> li {
+    flex: auto;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.navup> ul> li> a {
+    color: #88B14B;
+}
+
+.navup> ul> li> a:visited {
+    color: #D1AF94;
+}
+
+.navup> ul> li> a:hover {
+    color: #745F55;
+}
+
+.navup> ul> li> a:active {
+    color: #5587A2;
+}
+
+.navdown> ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navdown> ul> li {
+    flex: auto;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: : 30px;
+}
+
+.navdown> ul> li> a {
+    color: #88B14B;
+}
+
+.navdown> ul> li> a:visited {
+    color: #D1AF94;
+}
+
+.navdown> ul> li> a:hover {
+    color: #745F55;
+}
+
+.navdown> ul> li> a:active {
+    color: #5587A2;
+}
